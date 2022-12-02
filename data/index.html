@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="largebox" aria-labelledby="largebox">
+        <!--Left block for resume and bio-->
+        <div class="box_resume" aria-labelledby="box_resume" tabindex="0">
+          <div class="left-item"><img class="pic" alt="Profile" src="data/profile.jpg" >
+          <b>Eraj Uzoqov</b></div>
+          <div class="left-item"><p class="bio">Hi! My name is Eraj Uzoqov. I am a junior Computer Science student at Northwestern University.
+            I am from Dushanbe, Tajikistan. During my free time, I like to ride a bicycle, read books and play football.
+          <br>
+          <br>
+        I like travelling a lot. Before coming to Northwestern, I have studied in Germany, France, Hong Kong and Kazakhstan. My next destionation for travel 
+      is Brazil and Costa Rica.  I have pinned the places I have visited on the map below.</p> <iframe class="map" src="https://www.google.com/maps/d/embed?mid=192QetVn7xgpZkEoW6JxXF35xkz4Ifzs&ehbc=2E312F"></iframe></div>
+
+          <div class="left-item" tabindex="0"><p class="contact"><i class="material-icons">mail</i><br>eraj.uzoqov@gmail.com<br>
+            <i class="material-icons">phone</i><br>
+            872-203-3594&nbsp;</p></div>
+        </div>
+        <!--Right top block for carousel projects-->
+        <div class="box2" aria-label="box2">
+
+        <!--Menu-->
+        <div class="topnav">
+            <a class="active" href="index.html" tabindex="0">Home</a>
+            <a href="project.html" tabindex="0">Projects</a>
+            <a href="resume.html" tabindex="0">Resume</a>
+            <a href="contact.html" tabindex="0">Contact Me</a>
+          </div>
+        <!--End of menu-->
+
+          
+<p id="header">Projects</p>
+<!-- Slideshow container -->
+<div class="slideshow-container fade">
+
+    <!-- Full images with numbers and message Info -->
+    <div class="Containers" aria-label="contain" tabindex="0">
+      <div class="MessageInfo">1 / 2</div>
+      <a href="project.html"><img class="c_id" alt="first_project" src="data/1.png"></a>
+      <div class="Info">Ken Burns style documentary</div>
+    </div>
+  
+    <div class="Containers">
+      <div class="MessageInfo">2 / 2</div>
+      <img alt="second_project" class="c_id" src="data/2.jpg">
+      <div class="Info">2048 Game</div>
+    </div>
+  
+    <!-- Back and forward buttons -->
+    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The circles/dots -->
+  <div style="text-align:center">
+    <span class="dots" onclick="currentSlide(1)"></span>
+    <span class="dots" onclick="currentSlide(2)"></span>
+  </div> 
+
+
+          
+          
+          <div class="bottom">
+            <!--Additional blocks for extra info-->
+            <div class="box">Above, there is a carousel of 2 recent projects. Please click on the first project (or navigate to "Project" page) to learn more
+                about it. The first projects is the most recent: it creates a Ken Burns style documentary video based on a short form that the user has to fill.
+                The second project is the game "2048". I created it using MVC Framework. Although the game itself is not my idea, it was a challenging and interesting
+                project to work on.
+               
+            </div>
+            
+          </div>
+          <center>Website visit counter: <a href="https://www.hitwebcounter.com" target="_blank">
+            <img src="https://hitwebcounter.com/counter/counter.php?page=8083209&style=0006&nbdigits=5&type=page&initCount=0"Alt="web counter"/></a> </center>
+        </div>
+        
+    </div>
+<script src="main.js"></script>
+
+  
+</body>
+</html>
